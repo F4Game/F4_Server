@@ -21,7 +21,7 @@
 临时变量 | name| number
 ## if else
 
-```
+```python
 #变量不加类型修饰，不要带有下划线
 # 实例 playername、userinfo
 if name in lst_name:
@@ -32,7 +32,7 @@ else:
 
 ### 函数参数
 
-```
+```python
 def func_add(number1,number2)
     return number1+number2
     
@@ -42,7 +42,7 @@ def func_add(n1,n2)
 
 ### 类
 
-```
+```python
 class CPlayer(object):
     m_id = 1
     m_age = 18
@@ -67,7 +67,7 @@ class CPlayer(object):
 
 ### 注释
 
-```
+```python
 # todo 2020-3-8 记得祝母亲节日快乐 [author-name]
 
 """
@@ -87,7 +87,7 @@ def func(name, age):
 
 ### key
 
-```
+```python
 # key不需要多余内容，首字母大写，驼峰命名即可，记得最后一个也要补上`,`号
 dict_info = {
     "Height" : 170,
@@ -97,7 +97,7 @@ dict_info = {
 
 ### import
 
-```
+```python
 import os
 import sys
 from math import exp
