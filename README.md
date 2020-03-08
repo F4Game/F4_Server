@@ -1,10 +1,9 @@
 # F4_Server
 
-## 代码规范
+## python代码规范
 
-# python
 
-## 基本数据类型
+### 基本数据类型
 
 类型 | 格式 | 示例
 ---|--- |---
@@ -31,7 +30,7 @@ else:
     return
 ```
 
-## 函数参数
+### 函数参数
 
 ```
 def func_add(number1,number2)
@@ -41,7 +40,8 @@ def func_add(n1,n2)
     return n1+n2
 ```
 
-## 类
+### 类
+
 ```
 class CPlayer(object):
     m_id = 1
@@ -65,7 +65,8 @@ class CPlayer(object):
         self._open_eyes()
 ```
 
-## 注释
+### 注释
+
 ```
 # todo 2020-3-8 记得祝母亲节日快乐 [author-name]
 
@@ -84,7 +85,8 @@ def func(name, age):
 
 ```
 
-## key
+### key
+
 ```
 # key不需要多余内容，首字母大写，驼峰命名即可，记得最后一个也要补上`,`号
 dict_info = {
@@ -93,7 +95,8 @@ dict_info = {
 }
 ```
 
-## import
+### import
+
 ```
 import os
 import sys
